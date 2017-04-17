@@ -1,4 +1,25 @@
 # React Best Practices
+ - #### Create reusable component
+   (better without mutation)
+
+ ***
+
+ - #### Importing components without relative paths
+    If you use webpack, use setting resolve.alias
+
+    ```javascript
+        //for example
+        resolve: {
+            modules: [path.resolve('./node_modules')],
+            alias: {
+                Components: path.resolve(__dirname, '../../../../ui-component/component')
+            },
+            extensions: ['.js', '.jsx', '.json', '.scss']
+        },
+    ```
+    Now we have problem with alias in webpack 2 see [issue](https://github.com/webpack/webpack/issues/4160#issuecomment-281236136)
+
+ ***
 
  - #### Use Redux.
    Redux is a predictable state container for JavaScript apps.
