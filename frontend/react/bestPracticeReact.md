@@ -37,6 +37,10 @@
 
 ***
 
+- #### Use PureComponent, avoiding impure component
+   A pure component is a React component whose render function is pure (after changes in props or state). The default behavior in React is to always re-render the entire component tree, even if props/state do not change.
+***
+
 - #### Keep your state as flat as possible.
    If need help with them (with flat state), you may use: [normalizr](https://github.com/paularmstrong/normalizr)
 
