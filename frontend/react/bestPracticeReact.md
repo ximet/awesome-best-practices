@@ -20,11 +20,23 @@
                 Components: path.resolve(__dirname, '../../../../ui-component/component')
             },
             extensions: ['.js', '.jsx', '.json', '.scss']
-        },
+        }
     ```
     Now we have problem with alias in webpack 2 see [issue](https://github.com/webpack/webpack/issues/4160#issuecomment-281236136)
+***
+- #### Create functional component
+  ```javascript
+      //for example
+      const MyComponent = props => (
+        <div className={props.className}/>
+      );
+  ```
+  Functional component have a few limitations:
+    - cannot have a ref
+    - cannot have state
 
 ***
+
 - #### Keep your state as flat as possible.
    If need help with them (with flat state), you may use: [normalizr](https://github.com/paularmstrong/normalizr)
 
@@ -43,7 +55,7 @@
 ***
 
 - #### State in component is an Anti-Pattern
-   Need create Pure, only side effect component.
+   Need create Pure, only side effect component. Better use stateless component
 ***
 
 - #### Use Redux.
@@ -52,6 +64,13 @@
 
 ***
 
+- #### Use check type
+   Add a bit more type safety to our components.
+   But in React 15.5 propTypes deleted. You may use a few variants:
+    - Use [propTypes](https://github.com/reactjs/prop-types) - need install lib after version 15.5 :blush:
+    - Use [Flow] (https://flow.org/)
+
+***
 
 
 
