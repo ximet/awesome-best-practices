@@ -72,7 +72,7 @@
    Add a bit more type safety to our components.
    But in React 15.5 propTypes deleted. You may use a few variants:
     - Use [propTypes](https://github.com/reactjs/prop-types) - need install lib after version 15.5 :blush:
-    - Use [Flow] (https://flow.org/)
+    - Use [Flow](https://flow.org/)
 
 ***
 
@@ -92,6 +92,14 @@
 
         return firstArray.concat(secondArray)  
    ```
+
+***
+
+- #### Think about reactive\observable solutions
+   React is not reactive lib, but can become
+    - [MobX](https://github.com/mobxjs/mobx) - Simple, scalable state management
+    - [Cycle JS](https://cycle.js.org/) - A functional and reactive JavaScript framework
+    - [redux-rx](https://github.com/acdlite/redux-rx) - RxJS utilities for Redux.
 
 ***
 
