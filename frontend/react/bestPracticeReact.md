@@ -35,6 +35,13 @@
 
 ***
 
+- #### Delete unneeded state
+   Try to think about refactoring your component classes to not create unneeded state.
+
+   Always remember about the single source of truth principle - it can make your component classes simpler to write and maintain.
+
+***
+
 - #### Use Redux.
    Redux is a predictable state container for JavaScript apps.
    If you need more information you should check out [Redux](https://github.com/reactjs/redux) and Dan Abramov's course [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux)
