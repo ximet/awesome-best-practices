@@ -1,10 +1,15 @@
 # React Best Practices
- - #### Create reusable component
+- #### Create reusable component
    (better without mutation)
+   It should encapsulate the smallest element possible that can potentially be reused.
 
  ***
 
- - #### Importing components without relative paths
+- #### Create composable component
+     Not need create the same component with small changes or component with hard structure. Better think about how create composable component.
+ ***
+
+- #### Importing components without relative paths
     If you use webpack, use setting resolve.alias
 
     ```javascript
@@ -19,16 +24,20 @@
     ```
     Now we have problem with alias in webpack 2 see [issue](https://github.com/webpack/webpack/issues/4160#issuecomment-281236136)
 
- ***
-
- - #### Use Redux.
-   Redux is a predictable state container for JavaScript apps.
-   If you need more information you should check out [Redux](https://github.com/reactjs/redux) and Dan Abramov's course [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux)
+***
+- #### Keep your state as flat as possible.
+   If need help with them (with flat state), you may use: [normalizr](https://github.com/paularmstrong/normalizr)
 
 ***
 
-- #### Keep your state as flat as possible.
-   If need help with them (with flat state), you may use: [normalizr](https://github.com/paularmstrong/normalizr)
+- #### One-way binding
+   Need create data flows in one direction with some change.
+
+***
+
+- #### Use Redux.
+   Redux is a predictable state container for JavaScript apps.
+   If you need more information you should check out [Redux](https://github.com/reactjs/redux) and Dan Abramov's course [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux)
 
 ***
 
