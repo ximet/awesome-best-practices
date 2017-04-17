@@ -77,9 +77,21 @@
 ***
 
 - #### Use Immutable structure
-   [Immutable.js](https://github.com/facebook/immutable-js) - most popular implementations of immutable data structures.
+   - [Immutable.js](https://github.com/facebook/immutable-js) - most popular implementations of immutable data structures.
 
-   [Seamless Immutable](https://github.com/rtfeldman/seamless-immutable) - project is a much lighter-weight solution that uses normal JavaScript objects.
+   - [Seamless Immutable](https://github.com/rtfeldman/seamless-immutable) - project is a much lighter-weight solution that uses normal JavaScript objects.
+
+   - Hard way (use native JS with unit tests with [deep-freeze-node](https://www.npmjs.com/package/deep-freeze-node))
+
+   ```javascript
+       //for example
+       return {  
+          ...state,
+          foo
+        }
+
+        return firstArray.concat(secondArray)  
+   ```
 
 ***
 
