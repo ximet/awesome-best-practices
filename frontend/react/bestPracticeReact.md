@@ -72,6 +72,12 @@
 
 ***
 
+- #### Use Immutable structure
+   [Immutable.js](https://github.com/facebook/immutable-js) - most popular implementations of immutable data structures.
+
+   [Seamless Immutable](https://github.com/rtfeldman/seamless-immutable) - project is a much lighter-weight solution that uses normal JavaScript objects.
+
+***
 
 
 ___
