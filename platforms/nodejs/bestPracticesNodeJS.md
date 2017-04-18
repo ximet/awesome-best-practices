@@ -11,3 +11,9 @@
 Try-catch is a JavaScript language construct that you can use to catch exceptions in synchronous code. Use try-catch, for example, to handle file(json, org and other) parsing errors as shown below.
 
 ***
+
+- #### Use Promises
+
+Promises will handle any exceptions (both explicit and implicit) in asynchronous code blocks that use then()
+
+***
