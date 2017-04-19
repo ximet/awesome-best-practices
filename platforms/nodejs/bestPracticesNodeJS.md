@@ -23,3 +23,9 @@ Synchronous functions and methods tie up the executing process until they return
 Promises will handle any exceptions (both explicit and implicit) in asynchronous code blocks that use then()
 
 ***
+
+- #### Use ES2015
+
+A year passed and ES2015 support grew to 99% with Node v6.
+
+***
