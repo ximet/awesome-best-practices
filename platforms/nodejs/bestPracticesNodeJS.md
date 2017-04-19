@@ -8,7 +8,13 @@
 
 - #### Use try-catch
 
-Try-catch is a JavaScript language construct that you can use to catch exceptions in synchronous code. Use try-catch, for example, to handle file(json, org and other) parsing errors as shown below.
+Try-catch is a JavaScript language construct that you can use to catch exceptions in synchronous code. Use try-catch, for example, to handle file(JSON, org and other) parsing errors as shown below.
+
+***
+
+- #### Don’t use synchronous functions
+
+Synchronous functions and methods tie up the executing process until they return.
 
 ***
 
