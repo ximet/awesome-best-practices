@@ -8,24 +8,32 @@
 
 - #### Use try-catch
 
-Try-catch is a JavaScript language construct that you can use to catch exceptions in synchronous code. Use try-catch, for example, to handle file(JSON, org and other) parsing errors as shown below.
+   Try-catch is a JavaScript language construct that you can use to catch exceptions in synchronous code. Use try-catch, for example, to handle file(JSON, org and other) parsing errors as shown below.
 
 ***
 
 - #### Don’t use synchronous functions
 
-Synchronous functions and methods tie up the executing process until they return.
-
-***
-
-- #### Use Promises
-
-Promises will handle any exceptions (both explicit and implicit) in asynchronous code blocks that use then()
+   Synchronous functions and methods tie up the executing process until they return.
 
 ***
 
 - #### Use ES2015
 
-A year passed and ES2015 support grew to 99% with Node v6.
+   A year passed and ES2015 support grew to 99% with Node v6.
+
+***
+
+- #### Use Promises
+
+   Promises will handle any exceptions (both explicit and implicit) in asynchronous code blocks that use then()
+
+***
+
+- #### Use JS CodeStyle
+
+   For the help this point use:
+    - ESLint
+    - JSHint
 
 ***
