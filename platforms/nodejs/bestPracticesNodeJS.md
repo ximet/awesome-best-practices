@@ -37,3 +37,13 @@
     - JSHint
 
 ***
+
+
+- #### Use JWT for your REST API
+
+   JWT consist:
+    1. Header
+    2. Payload
+    3. Signature for your payload
+
+***
