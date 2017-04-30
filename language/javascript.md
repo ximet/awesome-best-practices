@@ -12,5 +12,9 @@
 - Avoid default param.
 - Reduce side effect.
 - Single responsibility. Function either modifies or handle smth, but not both.
+
+### Async code
+- Use Promises where you need async code
+
 ### Common
 - Good code explains itself. Comment to code only if it needed.
