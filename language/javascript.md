@@ -17,4 +17,5 @@
 - Use Promises where you need async code
 
 ### Common
+- Use strict equal (===)
 - Good code explains itself. Comment to code only if it needed.
