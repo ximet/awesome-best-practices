@@ -4,7 +4,7 @@ This repository is a collection of AWESOME Best Practices for all dev situation 
 ## Programming language
 
 - [JavaScript](https://github.com/ximet/awesome-best-practices/blob/master/language/javascript.md)
-- [Python](https://github.com/ximet/awesome-best-practices/blob/master/language/python.md) - Coming soon
+- [Python](https://github.com/ximet/awesome-best-practices/blob/master/language/python.md)
 - [Haskell](https://github.com/ximet/awesome-best-practices/blob/master/language/haskell.md) - Coming soon
 - [Elm](https://github.com/ximet/awesome-best-practices/blob/master/language/elm.md) - Coming soon
 - [Ruby](https://github.com/ximet/awesome-best-practices/blob/master/language/ruby.md) - Coming soon
