@@ -48,6 +48,20 @@
 
 ***
 
+
+- #### Use a small subset HTTP status codes
+
+   For example only main status code:
+    200. OK status
+    201. Created
+    304. Not Modified
+    400. Bad Request
+    401. Unauthorized
+    403. Forbidden
+    404. Not Found
+    500. Internal Server Error
+
+***
 ___
 ## Video link with best practices:
 
