@@ -48,6 +48,9 @@
 
 ***
 
+- #### Use HTTP Methods for your RESTful API
+
+***
 
 - #### Use a small subset HTTP status codes
 
@@ -60,6 +63,24 @@
     403. Forbidden
     404. Not Found
     500. Internal Server Error
+
+***
+
+- #### Pick good framework for your NODE.js REST API
+
+   Frameworks:
+    1. Express
+    2. Koa
+    3. Restify - for build strict API services
+    4. Hapi
+
+***
+
+- #### Test your NODE.js REST APIs
+
+***
+
+- #### Create documentation for your NODE.js REST APIs
 
 ***
 ___
