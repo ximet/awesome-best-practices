@@ -89,3 +89,5 @@ ___
 1. [JavaScript best practices, Node.js, and how to end poverty with Eric Elliott](https://www.youtube.com/watch?v=pVNagJzzaFg) - 17 Jun. 2015
 2. [Panel: Best Practices for Contributing to Node.js Core - James Snell, IBM](https://www.youtube.com/watch?v=sZdPHi5EMKI) - 24 Sep. 2016
 3. [Best Practices using TypeScript with Node.js by Bryan Hughes, Microsoft](https://www.youtube.com/watch?v=ATUvAQZaTbM) - 15 Dec. 2016
+
+3. [Performance and Highly Scalable Micro-Services](https://www.youtube.com/watch?v=Fbhhc4jtGW4) - 31 Oct. 2017
